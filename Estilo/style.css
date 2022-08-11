@@ -1,0 +1,74 @@
+body {
+    background: linear-gradient(to top, #e2ddbd, #dfbc24);
+    min-height: 100vh;
+
+}
+
+form {
+    background-color: #e2ddbd;
+    position: absolute;
+    left: 40%;
+    top: 15%;
+    width: /*20%*/260px;
+    height: /*19%*/120px;
+
+
+}
+
+fieldset {
+    width: 230px;
+    height: 100px;
+
+}
+
+legend {
+    font-weight: bold;
+    text-align: center;
+    font-style: solid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+
+}
+
+#formulario label.username {
+    line-height: 0.8;
+    position: absolute;
+    left: 15px;
+    margin-top: -1px;
+
+
+
+}
+
+#formulario label.password {
+    line-height: 1.8;
+    position: absolute;
+    left: 15px;
+    margin-top: -1px;
+}
+
+#formulario input.campo_login {
+    background-color: #dfbc24;
+    position: absolute;
+    left: 30%;
+    top: 28%;
+    width: 150px;
+
+}
+
+#formulario input.campo_senha {
+    background-color: #dfbc24;
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    width: 163px;
+    
+}
+
+#formulario input.btn_submit {
+    border-style: solid;
+    position: absolute;
+    bottom: 0.5em;
+    left: 40%;
+    background-color: #dfbc24;
+}
